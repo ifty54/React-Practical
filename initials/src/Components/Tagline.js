@@ -10,6 +10,14 @@ const Tagline = props => {
     )
     
 }
+// Alternate way(Destructuring Props)
+// const Tagline = ({name, subName})=>{
+//     return (
+//         <div>
+//             Hello {name} includes {subName}
+//         </div>
+//     )
+// }
     
 
 export default Tagline
