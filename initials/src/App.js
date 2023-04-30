@@ -4,10 +4,12 @@ import Tagline from './Components/Tagline'
 import Message from './Components/Message'
 import Counter from './Components/Counter'
 import FunctionClick from './Components/FunctionClick'
+import ClassClick from './Components/ClassClick'
 function App() {
   return (
     <div className="App">
       <FunctionClick />
+      <ClassClick />
       <Counter />
       <Greet />
       <Tagline name = "Travel Agency" subName = "Public Authority">
