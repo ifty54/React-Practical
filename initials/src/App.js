@@ -1,4 +1,5 @@
 import './App.css';
+import './New Components/Card.css';
 import Greet from './Components/Greet'
 import Tagline from './Components/Tagline'
 import Message from './Components/Message'
@@ -10,7 +11,13 @@ import ParentComponent from './Components/ParentComponent';
 
 function App() {
   return (
-      <div className="App">
+       <div className="App">
+          <h1 className='Main'> Hello everyoneeee!</h1>
+          <div className='card'>
+          <h1 className='title'>Here it is</h1>
+          <h3 className='motto'>Motto here</h3>
+          <p className='desc'>Desc here</p>
+        </div>
       <ParentComponent />
       <EventBind />
       <FunctionClick />
