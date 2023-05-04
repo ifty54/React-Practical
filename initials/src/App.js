@@ -7,9 +7,10 @@ import FunctionClick from './Components/FunctionClick'
 import ClassClick from './Components/ClassClick'
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+
 function App() {
   return (
-    <div className="App">
+      <div className="App">
       <ParentComponent />
       <EventBind />
       <FunctionClick />
@@ -22,6 +23,7 @@ function App() {
       <Tagline name = "Tourism Support" subName = "Govermental Authority"/>
       <Message/>
     </div>
+    
   );
 }
 
