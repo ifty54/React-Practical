@@ -1,5 +1,7 @@
 import './App.css';
 import './New Components/Card.css';
+import './New Components/Player.css';
+
 import Greet from './Components/Greet'
 import Tagline from './Components/Tagline'
 import Message from './Components/Message'
@@ -8,6 +10,7 @@ import FunctionClick from './Components/FunctionClick'
 import ClassClick from './Components/ClassClick'
 import EventBind from './Components/EventBind';
 import ParentComponent from './Components/ParentComponent';
+import Player from './New Components/Player';
 
 function App() {
   return (
@@ -24,6 +27,7 @@ function App() {
       <ClassClick />
       <Counter />
       <Greet />
+      <Player />
       <Tagline name = "Travel Agency" subName = "Public Authority">
       <p>What's our motto?</p>
       </Tagline>
