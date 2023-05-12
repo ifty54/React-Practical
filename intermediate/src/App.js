@@ -6,11 +6,13 @@ import List from './List/List.js'
 import Match from './Components/Match.js'
 import MatchClass from './Components/MatchClass.js'
 import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
+import ReactBootstrap from './React Bootstrap/ReactBootstrap';
 
 function App() {
   return (
     <div>
       <h1>Football</h1>
+      <ReactBootstrap />
         <span className='icon'>
          <AiFillFacebook />
          <AiFillTwitterSquare />
