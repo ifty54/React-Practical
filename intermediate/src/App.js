@@ -7,6 +7,7 @@ import Match from './Components/Match.js'
 import MatchClass from './Components/MatchClass.js'
 import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
 import ReactBootstrap from './React Bootstrap/ReactBootstrap';
+import State from './Components/State';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
          <AiFillFacebook />
          <AiFillTwitterSquare />
         </span>
+        <State />
         <Player playerName = {Data[0].Player} playerClub = {Data[0].Club} />
         <List />
         <Match company="Star Sports" type="Limited Company" />

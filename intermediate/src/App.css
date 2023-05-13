@@ -45,3 +45,18 @@
 .Schedule{
   padding-left: 30rem;
 }
+
+body{
+  background: rgb(78, 75, 75);
+  color: white;
+}
+
+button{
+  padding : 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 20rem;
+  width: 200px;
+}
