@@ -8,11 +8,13 @@ import MatchClass from './Components/MatchClass.js'
 import { AiFillFacebook, AiFillTwitterSquare } from "react-icons/ai";
 import ReactBootstrap from './React Bootstrap/ReactBootstrap';
 import State from './Components/State';
+import Rendering from './Conditional Rendering/Rendering';
 
 function App() {
   return (
     <div>
       <h1>Football</h1>
+      <Rendering />
       <ReactBootstrap />
         <span className='icon'>
          <AiFillFacebook />
