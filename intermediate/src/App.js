@@ -10,12 +10,14 @@ import ReactBootstrap from './React Bootstrap/ReactBootstrap';
 import State from './Components/State';
 import Rendering from './Conditional Rendering/Rendering';
 import EventHandler from './Event Handler Class/EventHandler';
+import Binding from './Event Binding/Binding';
 
 function App() {
   return (
     <div>
       <h1>Football</h1>
       <EventHandler />
+      <Binding />
       <Rendering />
       <ReactBootstrap />
         <span className='icon'>
