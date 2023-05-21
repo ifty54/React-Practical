@@ -11,6 +11,8 @@ import State from './Components/State';
 import Rendering from './Conditional Rendering/Rendering';
 import EventHandler from './Event Handler Class/EventHandler';
 import Binding from './Event Binding/Binding';
+import Hooks from './Hooks Use States/Hooks';
+import FunctionalHooks from './Hooks Use States/FunctionalHooks';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <EventHandler />
       <Binding />
       <Rendering />
+      <Hooks />
+      <FunctionalHooks />
       <ReactBootstrap />
         <span className='icon'>
          <AiFillFacebook />
