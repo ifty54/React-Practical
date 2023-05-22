@@ -4,7 +4,9 @@ export default function FunctionalHooks() {
 
     const [count, setCount] = useState(2023)
     const handleIncrement = () => {
-        setCount(count - 1)
+      //setCount works twice before updating the value
+        setCount(count => count - 1);
+        setCount(count => count - 1);
     }
   return (
     <div>
@@ -13,3 +15,4 @@ export default function FunctionalHooks() {
     </div>
   )
 }
+
